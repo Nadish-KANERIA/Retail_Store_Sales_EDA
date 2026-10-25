@@ -24,6 +24,7 @@ An exploratory analysis of retail-store transaction data, focused on spending be
 - Describe the distribution of transaction spending and identify outliers.
 - Explore the categories represented in high-spending transactions.
 - Track monthly sales totals over the available time period.
+- Compare the total quantity purchased online and in-store.
 
 ## Tools used
 
@@ -47,6 +48,7 @@ An exploratory analysis of retail-store transaction data, focused on spending be
 - Using the 1.5 x IQR rule, transactions above **$403.50** are high-spending outliers; there are **60** such transactions.
 - Food appears most often among high-spending transactions (**12 transactions**), followed by Beverages and Butchers (**11 each**).
 - Monthly sales fluctuate rather than following a consistent upward trend. January 2025 is incomplete and should not be compared directly with full months.
+- Online purchases total **33,731 units**, **1,186** more than in-store purchases (**32,545 units**).
 
 ## Visualizations
 
@@ -61,6 +63,10 @@ An exploratory analysis of retail-store transaction data, focused on spending be
 ### Monthly sales trend
 
 ![Line chart of monthly total sales](visualizations/monthly_sales_trend.png)
+
+### Quantity purchased by location
+
+![Bar chart comparing total quantity purchased online and in-store](visualizations/location_quantity_purchases.png)
 
 ## How to run
 
