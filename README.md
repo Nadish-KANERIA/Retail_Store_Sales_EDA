@@ -2,6 +2,22 @@
 
 An exploratory analysis of retail-store transaction data, focused on spending behavior, high-value purchases, and sales patterns over time.
 
+## Data dictionary
+
+| Column | Description |
+| --- | --- |
+| `Transaction ID` | Unique identifier for each transaction. |
+| `Customer ID` | Identifier for the customer who made the purchase. |
+| `Category` | Product category associated with the transaction. |
+| `Item` | Specific item purchased. |
+| `Price Per Unit` | Price of one unit of the item. |
+| `Quantity` | Number of units purchased. |
+| `Total Spent` | Total value of the transaction. |
+| `Payment Method` | Method used to pay for the transaction. |
+| `Location` | Whether the purchase was made online or in-store. |
+| `Transaction Date` | Date on which the transaction occurred. |
+| `Discount Applied` | Indicates whether a discount was applied to the transaction. |
+
 ## Project goals
 
 - Clean and prepare the transaction data for analysis.
@@ -56,3 +72,6 @@ An exploratory analysis of retail-store transaction data, focused on spending be
    ```
 
 3. Open and run `Data_Cleaning.ipynb` before `Data_Analysis.ipynb`.
+
+
+
