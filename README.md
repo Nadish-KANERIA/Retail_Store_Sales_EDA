@@ -74,7 +74,7 @@ An exploratory analysis of retail-store transaction data, focused on spending be
 2. Install the required Python libraries:
 
    ```bash
-   pip install pandas numpy matplotlib seaborn
+   pip install pandas numpy matplotlib seaborn scipy
    ```
 
 3. Open and run `Data_Cleaning.ipynb` before `Data_Analysis.ipynb`.
